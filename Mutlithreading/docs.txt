@@ -71,3 +71,9 @@ The thread can be only in one state.
 4. WAITING - waiting for some other thread to perform a particular action without any time limit.
 5. TIMED_WAITING - waiting for some other thread to perform a specific action for a specified period.
 6. TERMINATED - has completed its execution.
+
+
+------------------------------------
+
+
+A new thread (or a new born thread ) is created not yet started
