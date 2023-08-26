@@ -1,0 +1,12 @@
+
+
+
+java.lang.enum class contains a static state enum- which defines its potential states. during any given point of time.
+The thread can be only in one state.
+
+1. NEW  - a new created thread that has not yet started the execution.
+2. RUNNABLE - either running or ready for execution but it's execution but it waiting for resource allocation
+3. BLOCKED - waiting to acquire a monitor lock to enter or re-enter a synchrinized block/methods.
+4. WAITING - waiting for some other thread to perform a particular action without any time limit.
+5. TIMED_WAITING - waiting for some other thread to perform a specific action for a specified period.
+6. TERMINATED - has completed its execution.
