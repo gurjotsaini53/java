@@ -1,0 +1,58 @@
+@Annotations
+
+Annotation sare java types that are preceded by an '@' symbol ;
+Annotation can be applied to the classes, interfaces , methods and fields
+Spring and Hibernate are great examples of frameworks that rely heavily an annotations.
+An Annotation assign extra metadata to the source code it's bound to.
+Annotations offer an alternative to the use of XML descriptors  and marker interface.
+
+
+
+Annotation does not affect the execution of program
+
+Why Annotation
+-Instruction to the compiler
+-Compile-time Instructor
+-Runtime instruction
+
+
+---------------
+
+Build in Annotations in java
+
+1 . @Override -
+
+
+while overriding the func of a class we have to take care of the parameter of that particular methods or function
+methods level annotation
+
+2 . @Depreciated -
+class , methods , fields level annotation
+
+3. @SuppressWarnings  -
+
+class level annotation
+
+
+
+---------------------------
+
+we can make custom annotations
+
+
+import java.lang.annotations.* ;
+
+
+
+
+class level
+field level
+method level
+interface level
+package level
+
+
+
+
+
+

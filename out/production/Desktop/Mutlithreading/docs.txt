@@ -1,0 +1,60 @@
+Concurrency--------
+
+Multithreading
+
+concurrency is the ability to do more at same time.
+
+Running multiple parts of a single application simultaneously is also termed as concurrency.
+
+concurrent softwares
+
+
+
+Mutliprocessing , Multitaking , Multithreading
+
+
+Basic unit of concurrency is process and thread
+..
+A process is a program in execution.
+It has its own address space , a call stack , link to anu resource such as open files.
+A computer system normally has multiple processes running at a time.
+The operating system keeps tracks of all these processes and facilitates their execution
+
+
+----------------------
+ A thread is a path of execution within a process.
+ Every process has at least one thread called the main thread. The main thread can create additional thread within the process.
+
+ Threads within a process share the process;s resources including memory and open file.
+ However every single thread has its own call stack.
+
+
+ since thread share the smae address space of the process, creating
+
+
+
+
+
+
+
+
+
+ concurrency and parallelism .
+
+
+ Mutlithreading is the process of executing two or more threads of the same process simultaneously.
+
+
+ how to create a thread ?
+ there are two ways of creating a thread.
+ 1. By extending a thread class.
+ 2. By implementing a runnable interface.
+
+
+it in never legal to start a thread more than once.
+
+        implements  extends
+runnable <- thread <- objects
+
+
+Thread class vs Runnable interface

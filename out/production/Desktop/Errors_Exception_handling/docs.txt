@@ -1,0 +1,123 @@
+An exception is generally unwanted event that interrupts the normal flow of program.
+
+When an exception occur program execution gets terminated. In such cases we get a generated msgs.
+
+the exception can be handled in java easily.
+
+
+exception handling ensures that the flow of program doesnot break when an exception occur.
+
+
+
+difference between error and exception
+
+error indicates that something severe enough has gone wrong , the application should crash rather
+than try to handle the error.
+
+
+exceptions are events that occurs in the code, a programmer can handle such conditions and take necessary
+corrective work
+
+---------------NullPointerException-----------------
+- when you try to use a reference that points to null.
+
+----------------ArithmeticException-----------------
+
+ArrayIndexOutOfBoundsException
+
+-----------------------------------------------------------------------------------------
+Types of exception
+- checked exceptions / compile time exceptions
+- Error
+- unchecked Exception/ Runtime Exception
+
+-----------------------------------------------------------------------------
+
+difference between checked and unchecked exception
+
+checked ---- compile time exception
+unchecked ---- runtime exception
+
+
+-------------------------------------------------------------------------------
+
+
+Error(unchecked) -> Throwable (checked) -> Exception (checked) -> Runtime exception (unchecked)
+
+Errors and exception are both subclasses of the throwables class and are used
+
+
+
+
+checked exception are subject to the catch or specify requirement.
+All exception are checked exceptions. except for those indicated by error, runtime exception. and their subclass.
+
+FileNotFoundException
+
+
+
+
+Error are not subject to the catch or specify requirment , Errors are those exceptions indicated by error and its subclasses/
+
+stackoverflowError, Linkage Error, IOError, virtualMachineError.
+
+
+////////// tutorial/essential/exception/runtime.html.
+
+
+
+Runtime exception are not subjects to the catch or specify requirement
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------
+
+Catching & handling Exception
+
+The three exception handling components to write an exception handler.
+
+try-catch-finally
+
+
+
+try{
+
+// code
+}
+
+catch and finally blocks.......
+
+
+
+------------------------------------------------------------
+try{
+
+
+
+}
+catch (ExceptionType name){
+
+
+}
+catch(ExceptionType name){
+
+}
+
+------------------------------------------------------------
+
+
+try{
+
+}
+
+catch(IOException | SQLException){
+
+throw ex;
+}
+
+---------------------------------------------------------------
+

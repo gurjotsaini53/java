@@ -1,0 +1,38 @@
+An I/O stream represent an input source or an output destination
+
+
+
+Stream supports many different kinds of data, including simple bytes, primitive data type , localized characters , and objects
+some streams pass on data , others manipulate and transform the data in useful ways.
+
+-----------------------------------------------------------------------------------------
+
+-A stream is a sequence of data
+-A program uses an input stream to read data from a source , one item at a time.
+-A program uses an output stream to write data to a destination , one item at time.
+
+System.out.println("Hello World")   // output stream obj methods
+
+
+Type I/0 Streams
+
+--- Unbuffered I/O streams
+--- Buffered I/O Streams
+
+Actual
+--- Byte Streams            // unbuffered
+--- Character Streams         // buffered
+--- Data Streams
+--- Object Streams
+
+
+-----------------------------------------------------------
+(Byte Streams)
+Byte Stream is used to read and write a single byte (8 bits) of data.
+All byte stream classes are derived from base abstract classes called InputStream and OutputStream.
+
+
+
+(Character Stream)
+Character Stream is used to read and write a single character of data.
+All the character stream classes are derived from base abstract classes called Reader and Writer.
