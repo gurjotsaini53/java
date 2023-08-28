@@ -1,0 +1,27 @@
+Explicit locking and intrinsic locking
+
+-- explicit locking using lock and condition objects
+-- intrinsic locking using the synchronized keyword
+
+using synchronzied keyword is easier and less error prone than explicit locks
+
+
+Deadlock---
+I locked , you locked and we are locked
+A deaklock occurs when two or more threads wait forever for a lock for resource held by another of the threads
+
+
+Livelock--
+I locked , You locked Let's FREE & TRY again.
+4
+
+Staration -----
+
+
+//////
+
+
+synchronization
+
+let first finished first
+
