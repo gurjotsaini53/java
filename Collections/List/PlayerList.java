@@ -1,9 +1,6 @@
 package Collections.List;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 public class PlayerList {
 
@@ -83,10 +80,19 @@ public class PlayerList {
         Iterator<String> teamIterator = newTeam.iterator();
         System.out.println(teamIterator.hasNext());
 
-        
+
         while(teamIterator.hasNext())
         {
             String name = teamIterator.next();
+            System.out.println(name);
+        }
+
+        System.out.println("------------Accessing Reverse elements using List Iterators-----------");
+
+        ListIterator<String> teamListIterator= newTeam.listIterator(newTeam.size());
+        while (teamListIterator.hasPrevious())
+        {
+            String name = teamListIterator.previous();
             System.out.println(name);
         }
     }
