@@ -20,5 +20,11 @@ public class ArrayToArrayList {
         ArrayList<String> list1 = new ArrayList<String>();
         Collections.addAll(list1,arr);
         System.out.println(list1);
+
+        // 3. ArrayList.addAll() method
+
+        ArrayList <String> arrayList = new ArrayList<>();
+        arrayList.addAll(Arrays.asList(arr));
+        System.out.println(arrayList);
     }
 }
