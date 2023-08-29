@@ -85,3 +85,5 @@ and search for element in the list.
 
  Accessing elements using forEach loop
 
+
+Ques. difference between ListIterator and Iterator

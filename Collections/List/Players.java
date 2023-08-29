@@ -3,6 +3,7 @@ package Collections.List;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.ListIterator;
 
 
  class Player {
@@ -56,6 +57,26 @@ public class Players {
         while (It.hasNext())
         {
             Player obj = It.next();
+            System.out.println("Name : " + obj.getName() + ", Age : " + obj.getAge());
+        }
+
+        System.out.println("---------------using list itertor-----------------------------------");
+
+        ListIterator<Player> List_it = p.listIterator();
+
+        while (List_it.hasNext())
+        {
+            Player obj = List_it.next();
+            System.out.println("Name : " + obj.getName() + ", Age : " + obj.getAge());
+        }
+
+        System.out.println("---------------using list itertor (backward)-----------------------------------");
+
+        ListIterator<Player> List_it_back = p.listIterator(p.size());
+
+        while (List_it_back.hasPrevious())
+        {
+            Player obj = List_it_back.previous();
             System.out.println("Name : " + obj.getName() + ", Age : " + obj.getAge());
         }
     }
