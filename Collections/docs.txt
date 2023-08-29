@@ -79,3 +79,9 @@ and search for element in the list.
 
  special contructor
  Contructs an empty list with the specified initial capacity.
+
+
+
+
+ Accessing elements using forEach loop
+

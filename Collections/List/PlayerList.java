@@ -2,6 +2,7 @@ package Collections.List;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Iterator;
 import java.util.List;
 
 public class PlayerList {
@@ -67,5 +68,26 @@ public class PlayerList {
             System.out.println(name);
         }
 
+        System.out.println("----------------------------------------------------------------");
+        ArrayList<String> newTeam = new ArrayList<String>(player);
+        System.out.println(newTeam);
+
+        for(String name : newTeam)
+        {
+            System.out.println(name);
+        }
+
+
+        System.out.println("------------Accessing using Iterators-----------------------------");
+
+        Iterator<String> teamIterator = newTeam.iterator();
+        System.out.println(teamIterator.hasNext());
+
+        
+        while(teamIterator.hasNext())
+        {
+            String name = teamIterator.next();
+            System.out.println(name);
+        }
     }
 }
