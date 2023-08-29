@@ -41,7 +41,7 @@ Collection do not work with primitive data type
 We have to use Wrapper classes
 
 
----------------------
+----------------------------------------------------------------------------------------------------------------------
 ArrayList
 
                                 Collection<String> player = new ArrayList<String>();
@@ -53,3 +53,29 @@ The user can access elements by their integer index (position in the list).
 and search for element in the list.
 
                                 List<String> player = new ArrayList<String>();
+
+
+
+ ----------------------------------------------------------------------------------------------------------------------------
+
+
+     * (array list)
+     Ordered collection
+     Duplicate Value
+     Not Synchronized
+
+
+     An Array list is  resizeable array also called a dynamic array.
+     Its grows its size  to accommodate new elements and shrinks the size when size is removed.
+
+     array list internally uses an array to store elements just like array it alos allow you to retrieve the elements
+     it alow you to retrive array elements by their index.
+
+     java array list allows null values.
+
+                             ArrayList<String> player = new ArrayList<String>();
+
+
+
+ special contructor
+ Contructs an empty list with the specified initial capacity.
