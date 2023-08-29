@@ -1,0 +1,33 @@
+Collection framework
+
+collection framework or java collection API is a collection of classes & interfaces.
+
+package
+java.util.Collection
+
+its a root interface in the collection API
+A collection us an object that represents a group of
+
+The programming adv of collection framework
+
+Reduces programming efforts
+Increases Proformance -- high performance implementation of data structures and algorithms.
+
+
+collection
+
+1. List                                         2. Queue                                     set
+- ArrayList                                    - deque                                     haskset,
+- LinkedList                                   -  ArrayDeque
+- vector- stack                                 - priority Queue
+
+
+Map
+SortedMap,TreeMap
+hashMap , LinkedHashMap
+HashTable
+
+Diff b/w haskmap and hash table
+---------------------------------------
+Collection Framework
+It has rules and Exceptions
