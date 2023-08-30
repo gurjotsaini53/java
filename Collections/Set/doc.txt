@@ -1,0 +1,12 @@
+an unordered collection
+A collection that contains no duplicates elements and at most one null element.
+
+The user can access elements by their integer index (position in the list) and search for element in the list
+
+
+Set <String> player = new HashSet<>;
+
+
+Unordered collection
+no duplicate value
+no synchronization
