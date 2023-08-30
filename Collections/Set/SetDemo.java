@@ -1,5 +1,6 @@
 package Collections.Set;
 
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
@@ -7,6 +8,7 @@ public class SetDemo {
 
 
     public static void main(String[] args) {
+        /*
               Set<String> player = new HashSet<>();
 
         player.add("Player_01");
@@ -45,7 +47,26 @@ public class SetDemo {
         }
 
 
+        System.out.println("--------------------------------");
 
+        */
+
+
+        HashSet<String> player = new HashSet<>();
+
+        player.add("Player_02");
+        player.add("Player_02");
+        player.add("Player_01");
+        player.add("Player_04");
+        player.add("Player_01");
+        player.add("Player_03");
+
+        ArrayList<String>arrayList = new ArrayList<String>(player);
+
+        for (String name : arrayList)
+        {
+            System.out.println(name);
+        }
 
 
     }

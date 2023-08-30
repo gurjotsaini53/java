@@ -25,3 +25,16 @@ Suggestion : use hashset to remove duplicate values in the collection object the
 if more functionality required.
 
 HashSet<String> p = new HashSet<>();
+
+--------------------------------------------------------------------------------
+
+
+We cannot access hashset or set values through index
+
+we can convert hashset to arraylist then access its element
+
+
+-----------------------------------------------------------------------
+
+internally in set values are not stored in the sorted order
+but while accessing elements of objects it gives sorted result.
