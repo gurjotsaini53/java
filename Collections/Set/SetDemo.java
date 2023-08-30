@@ -1,9 +1,7 @@
 package Collections.Set;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Set;
+import java.util.*;
+
 public class SetDemo {
 
 
@@ -67,7 +65,7 @@ public class SetDemo {
         {
             System.out.println(name);
         }
-
+        
 
     }
 }

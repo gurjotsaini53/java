@@ -38,3 +38,6 @@ we can convert hashset to arraylist then access its element
 
 internally in set values are not stored in the sorted order
 but while accessing elements of objects it gives sorted result.
+
+
+hashset internally work in hashset
