@@ -10,3 +10,17 @@ Set <String> player = new HashSet<>;
 Unordered collection
 no duplicate value
 no synchronization
+
+
+HashSet
+
+Hashset internally uses hashmap to store its elements.
+
+java Hashset allow null values.
+
+java hashset has low methods as compared to the arraylist
+
+Suggestion : use hashset to remove duplicate values in the collection object then convert it into arrayList,
+if more functionality required.
+
+HashSet<String> p = new HashSet<>();
