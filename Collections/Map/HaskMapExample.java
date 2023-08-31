@@ -54,9 +54,14 @@ public class HaskMapExample {
         // 1. Print statement
         System.out.println(data);
 
+        System.out.println("---------How a entry set look like----------------");
+
+
+        System.out.println(data.entrySet());
+
         System.out.println("---------entrySet() methods----------------");
 
-        // 2. entrySet() enthod
+        // 2. entrySet() method;
 
         for(Map.Entry<Integer,String> entry : data.entrySet())
         {
@@ -84,5 +89,8 @@ public class HaskMapExample {
         data.entrySet().forEach( entry ->{
             System.out.println(entry.getKey()+ " " +entry.getValue());
         });
+
+
+
     }
 }
