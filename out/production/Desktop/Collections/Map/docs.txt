@@ -1,0 +1,26 @@
+An object that maps key to values. A map cannot contain duplicate keys.
+each key can map to at most one value.
+
+this interface is a member of the java collection framework.
+
+Map<Interger,String> player = new HashMap<>();
+first value is a key , second value is value to key.
+hashmap internally uses hashmap
+
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------(Hashap)--------
+(key,value) pair
+unordered collection
+duplicate value
+Not Synchronized
+keys are uniques and are sorted
+value can be duplicate
+
+------------------------------------------------------------------------------------------------------------------------
+ A hashmap cannot contain duplicate keys.
+ java hashmap allows null values and the null key.
+ hashmap is an unordered collection. it does not guarantee any specific order of the elements,
+
+ HashMap <Integer,String> player = new HashMap<>();
