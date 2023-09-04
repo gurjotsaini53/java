@@ -1,0 +1,9 @@
+java generics allow you to create a single class, interface and methods that
+can be used with differenct type of data (objects).
+
+
+This help us to reuse our code
+
+Node : Generic does not work with primitive data type (int , char, float etc.)
+
+

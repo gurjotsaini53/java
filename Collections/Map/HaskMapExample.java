@@ -90,7 +90,12 @@ public class HaskMapExample {
             System.out.println(entry.getKey()+ " " +entry.getValue());
         });
 
+      /*
 
+      Get the hashcodes of the keys with the help of a method "hashcode()" from the object class
+       */
 
+        Integer onekey =103 ;
+        System.out.println(data.get(103).hashCode());
     }
 }
