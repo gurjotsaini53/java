@@ -20,7 +20,7 @@ public class BoxGeneric <T> {
 
     public static void main(String[] args) {
         BoxGeneric<String> object = new BoxGeneric<>();
-        object.set("Gurjot");
+        object.set( new String("gurjot"));
         System.out.println(object.get());
 
         BoxGeneric<Double> object1 = new BoxGeneric<>();
