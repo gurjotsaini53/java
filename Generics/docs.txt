@@ -32,3 +32,31 @@ Generic types
 1.Generic class (Template class)
 2.Generic methods
 
+-----------------------------------------
+
+Type parameter naming convention
+
+By convention type parameter names are single uppercase letter.
+without its naming convension it would be difficuilt to tell the difference btw
+a type variable and an oridinary class or interface name
+
+
+the most commonly used type parameter names are
+
+E- element (used extensively by the java collection framework)
+
+K - key
+N - number
+V - value
+S,U,V etc - 2nd , 3rd , 4th types
+
+A type variable can be any non - primitive type you can specify any class type, any interface
+any array or even another type variable
+
+
+
+
+-----------------------------------------------------------
+
+Generic methods
+
