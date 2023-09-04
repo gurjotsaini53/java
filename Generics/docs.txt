@@ -7,3 +7,28 @@ This help us to reuse our code
 Node : Generic does not work with primitive data type (int , char, float etc.)
 
 
+in java2
+
+Box integerBox = new Box();
+
+in java 5
+
+Box<Integer> intergerBox = new Box<Interger>();
+
+in java7
+
+Box<Integer> integerBox=  new Box<>();
+
+
+the core idea behind generic if programmers could express their internsion to use
+specific type and the compiler ensured the correctness of such types.
+
+
+
+
+---------------------------------------
+
+Generic types
+1.Generic class (Template class)
+2.Generic methods
+
