@@ -10,7 +10,11 @@ public class GenericMethods <T>{
         this.boxData=boxData;
     }
 
-    public <T> void showBoxData(T[] boxData)
+
+    public T[] getBoxData(){
+        return boxData;
+    }
+    public   <T> void showBoxData(T[] boxData)
     {
         for (T data:boxData)
         {
@@ -29,6 +33,7 @@ public class GenericMethods <T>{
         GenericMethods<String> sObj = new GenericMethods<>(item_name);
         sObj.showBoxData(item_name);
         sObj.inspect();
+        System.out.println(sObj.getBoxData().toString());;
 
     }
 }
