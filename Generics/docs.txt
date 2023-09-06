@@ -60,3 +60,8 @@ any array or even another type variable
 
 Generic methods
 
+
+---------------------------------------------------------
+
+Wild cards
+the question mark  ? called the wildcard represents an unknown g
