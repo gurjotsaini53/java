@@ -1,0 +1,32 @@
+RegEx -  regular expression
+
+Pattern and matcher classes
+check string matches
+groups in regex
+replace functionality
+
+-----------------------------------
+
+Regular expression in java comprise of a series of characters that define a particular seach pattern.
+these are extensively used in find and replace algorithms. and search engines where it finds based on particular pattern.
+
+
+fomous american mathematicain stephen cole kleene brought out the concept of regular expression in the 1950s.
+
+regular expression or regex for short provide a concise and precise specification.
+
+
+java.utlil.regex API
+
+Pattern - pattern object is a compiled regex.
+
+
+To create a pattern we, must first invoke on of its public static compile methodsm which will then return pattern object.
+
+these methods accept a regular expression as the first argument.
+
+
+
+Matcher - the pattern class provides no public constructors.
+PatternSyntaxException -
+
