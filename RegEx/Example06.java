@@ -6,9 +6,9 @@ import java.util.regex.Pattern;
 public class Example06 {
 
     public static void main(String[] args) {
-        Pattern pattern = Pattern.compile("Un*",Pattern.CASE_INSENSITIVE);
-//        Matcher matcher = pattern.matcher("Chitkara UNIVERSITy");
-        Matcher matcher = pattern.matcher("UNIVERSITy Chitkara UNIVERSITy Chitkara");
+        Pattern pattern = Pattern.compile("Un+",Pattern.CASE_INSENSITIVE);
+//        Matcher matcher = pattern.matcher("u");
+        Matcher matcher = pattern.matcher("UNIVERSITy Chitkara UNIVERSITy Chitkara unA  ");
 
 
 
